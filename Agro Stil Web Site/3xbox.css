@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  .box1 {
+    flex: 0 0 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px dashed orange;
+    background-color: rgb(160, 218, 169);
+  }
+  .button2 {
+    margin-top: auto;
+    border-radius: 12px;
+    background-color:#F9F9F9;
+  }

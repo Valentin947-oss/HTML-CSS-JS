@@ -1,0 +1,29 @@
+ul{
+    font-family: "Chievo Mono",monospace;
+    display: flex;
+    gap: 36px;
+   
+}
+
+el li{
+    list-style: none;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: 0.5s,ease;
+    
+}
+
+ul:hover li a{
+    color: limegreen;
+}
+
+ul:hover li a:not(:hover){
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
+}
